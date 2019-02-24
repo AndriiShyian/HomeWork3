@@ -1,0 +1,45 @@
+#submit{
+    background-color: mediumpurple;
+    padding: 6px 14px;
+    color:white;
+    border:1px solid blueviolet;
+    border-radius: 2px;
+}
+#submit:hover{
+    background-color:blueviolet;
+    cursor:pointer;
+    border:1px solid blueviolet;
+}
+.result {
+    padding-top: 25px
+
+  }
+  body{
+      text-align: center;
+      margin-right: 100px;
+      margin-top: 100px;
+  }
+  .error{
+      border:1px solid red;
+  }
+  #figure{
+      text-align: center;
+     
+  }
+  .error-span {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 0px;
+    color: red;
+    font-size: 12px;
+    left: 0;
+  }
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .form {
+    max-width: 400px;
+    width: 100%;
+    margin:  0 auto;
+  }
