@@ -7,6 +7,9 @@ const result3 = document.getElementById('result3');
 const resul4 = document.getElementById('result4');
 submit.addEventListener('click',function(){
 let massive = numbers.value.split(',');
+for(let i = 0; i < massive.length; i++){
+    massive[i] = +massive[i];
+}
 
 console.log(massive);
 minNumber(massive);
@@ -23,6 +26,7 @@ if(numbers.value === ''){
 }
 
 });
+
 function validate(inp) {
     inp.value = inp.value.replace(/[^-\d,.]*/g, '')
                          .replace(/([,-.])[,.]+/g, '$1')
